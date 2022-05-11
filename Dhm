@@ -61,3 +61,10 @@ for i, e in pairs(l:GetChildren()) do
     end
 
 end
+
+
+game.Workspace.Door:destroy()
+game.Workspace.Lights:destroy()
+game.Workspace.Casino:destroy()
+game.Workspace.FireParts:destroy()
+
