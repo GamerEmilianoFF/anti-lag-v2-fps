@@ -1,3 +1,4 @@
+
 local decalsyeeted = false -- Leaving this on makes games look shitty but the fps goes up by at least 20.
 
 local g = game
@@ -32,7 +33,7 @@ for i, v in pairs(g:GetDescendants()) do
 
         v.Reflectance = 0
 
-        wait(4)
+        
 
     elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
 
@@ -40,9 +41,9 @@ for i, v in pairs(g:GetDescendants()) do
 
     elseif v:IsA("Explosion") then
 
-        v.BlastPressure = 1
+        v.BlastPressure = 0
 
-        v.BlastRadius = 1
+        v.BlastRadius = 0
 
     elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") then
 
@@ -51,6 +52,8 @@ for i, v in pairs(g:GetDescendants()) do
     end
 
 end
+
+wait (2)
 
 for i, e in pairs(l:GetChildren()) do
 
@@ -62,9 +65,10 @@ for i, e in pairs(l:GetChildren()) do
 
 end
 
-wait(5)
+wait (3)
+
 game.Workspace.Door:destroy()
 
 game.Workspace.Casino:destroy()
-game.Workspace.FireParts:destroy()
 
+game.Workspace.FireParts:destroy()
