@@ -32,7 +32,7 @@ for i, v in pairs(g:GetDescendants()) do
 
         v.Reflectance = 0
 
-        
+        wait(4)
 
     elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
 
@@ -62,9 +62,9 @@ for i, e in pairs(l:GetChildren()) do
 
 end
 
-
+wait(5)
 game.Workspace.Door:destroy()
-game.Workspace.Lights:destroy()
+
 game.Workspace.Casino:destroy()
 game.Workspace.FireParts:destroy()
 
