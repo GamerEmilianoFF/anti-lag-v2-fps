@@ -71,4 +71,4 @@ game.Workspace.Door:destroy()
 
 game.Workspace.Casino:destroy()
 
-game.Workspace.FireParts:destroy()
+
