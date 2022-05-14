@@ -67,7 +67,7 @@ end
 
 wait (3)
 
-game.Workspace.Door:destroy()
+
 
 game.Workspace.Casino:destroy()
 
